@@ -24,3 +24,18 @@ Switch your git configs easily.
         ├── id_rsa.pub
         └── known_hosts
 ```
+
+### gitConfig file
+
+```
+user.email=email@email.com
+user.name=XYZ
+```
+You can get this by doing
+```bash
+git config --list > gitConfig
+```
+
+### ssh folder
+
+Copy contents from `~/.ssh` folder.
